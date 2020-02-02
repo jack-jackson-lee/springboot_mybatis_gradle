@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cn.example.springboot.dao.IStudentDao">
+
+    <update id="createStudent">
+
+        CREATE  TABLE  if NOT EXISTS  student(
+
+        studentId        Integer(10) not null,
+        studentName      varchar (10),
+        sex              varchar (2),
+        age              INTEGER (2),
+        gid              INTEGER (10),
+        claId            INTEGER (10),
+        PRIMARY KEY (studentId)
+        )
+    </update>
+
+    <update id="dropStudent" parameterType="java.lang.String">
+        DROP TABLE IF EXISTS ${tableName}
+    </update>
+
+</mapper>
