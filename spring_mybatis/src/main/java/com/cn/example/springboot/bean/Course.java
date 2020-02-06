@@ -1,5 +1,9 @@
 package com.cn.example.springboot.bean;
 
+
+/**
+ * 课程
+ */
 public class Course {
     private int courseId;
     private String courseName;

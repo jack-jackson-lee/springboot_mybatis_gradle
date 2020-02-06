@@ -1,5 +1,9 @@
 package com.cn.example.springboot.bean;
 
+
+/**
+ * 角色
+ */
 public class Role {
 
 

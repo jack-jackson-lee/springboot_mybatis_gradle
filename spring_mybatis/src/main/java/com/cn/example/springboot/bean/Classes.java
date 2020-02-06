@@ -1,5 +1,9 @@
 package com.cn.example.springboot.bean;
 
+
+/**
+ * 班级
+ */
 public class Classes {
 
 

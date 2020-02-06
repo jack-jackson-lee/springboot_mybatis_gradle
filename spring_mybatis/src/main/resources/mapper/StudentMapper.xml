@@ -9,9 +9,9 @@
         studentId        Integer(10) not null,
         studentName      varchar (10),
         sex              varchar (2),
-        age              INTEGER (2),
-        gid              INTEGER (10),
-        claId            INTEGER (10),
+        age              varchar (2),
+        gid              varchar (10),
+        claId            varchar (10),
         PRIMARY KEY (studentId)
         )
     </update>

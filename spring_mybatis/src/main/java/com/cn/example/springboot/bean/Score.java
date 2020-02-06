@@ -1,5 +1,8 @@
 package com.cn.example.springboot.bean;
 
+/**
+ * 分数
+ */
 public class Score {
 
     private int studentId;

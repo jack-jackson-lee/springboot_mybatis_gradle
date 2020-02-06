@@ -6,6 +6,9 @@ import org.slf4j.LoggerFactory;
 import java.io.File;
 import java.io.IOException;
 
+/**
+ *获取路径的测试类
+ */
 public class PathUtil {
 
     /**
